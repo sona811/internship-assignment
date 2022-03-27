@@ -1,0 +1,57 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 1em;
+
+    .orderDetailsContainer {
+        width: 30%;
+
+        label {
+            margin-bottom: 0.5em;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .profileContainer {
+
+        .profileContentContainer {
+            display: flex;
+
+            .profileAvatar {
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+                margin-top: 2em;
+            }
+
+            .infoContainer {
+                div {
+                    margin-bottom: 1em;
+                    
+                    label {
+                        margin-right: 0.8em;
+                    }
+
+                    svg {
+                        margin-bottom: -0.2em;
+                        margin-left: 0.3em;
+                    }
+                }
+            }
+        }
+
+        .actionContainer {
+            display: flex;
+            justify-content: flex-end;
+
+            button {
+                margin-left: 0.8em;
+            }
+        }
+    }
+}

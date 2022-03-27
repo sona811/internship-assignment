@@ -1,0 +1,16 @@
+.editorContainer {
+    background: white;
+    height: 100%;
+}
+
+.commentButton {
+    background: skyblue;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    position: sticky;
+    left: 100%;
+    margin-bottom: 0.4em;
+}

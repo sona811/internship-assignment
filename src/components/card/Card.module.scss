@@ -1,0 +1,23 @@
+.cardContainer {
+    border: 1px solid black;
+    width: inherit;
+    border-radius: 0.4em;
+    padding: 0.5em;
+
+    .cardHeader, .cardContent {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.8em;
+        font-size: small;
+    }
+
+    .cardContent {
+        label {
+            font-size: large;
+        }
+    }
+
+    .cardFooter {
+        font-size: small;
+    }
+}

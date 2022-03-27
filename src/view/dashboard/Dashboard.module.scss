@@ -1,0 +1,13 @@
+.dashboardContainer {
+    display: flex;
+
+    .contentContainer {
+        flex: 1;
+
+        > div {
+            &:nth-child(3) {
+                height: 10em;
+            }
+        }
+    }
+}
