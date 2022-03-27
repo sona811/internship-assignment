@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Starting project document
 
 ### Please install necessary dependencies using following command:
 
